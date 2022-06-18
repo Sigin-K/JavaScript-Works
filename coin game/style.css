@@ -1,0 +1,53 @@
+@keyframes spin {
+    0% {background: url("./head.jpeg")}
+    
+    25% {background: url("./tails.jpeg")}
+    
+    50% {background: url("./head.jpeg")}
+    
+    75% {background: url("./tails.jpeg")}
+    
+    100% {background: url("./head.jpeg")}
+}
+
+
+#image{
+    background: url("./head.jpeg");
+    width: 227px;
+    height: 337px;
+    
+}
+
+.animate{
+    background: url("./head.jpeg");
+    width: 227px;
+    height: 337px;
+    animation-name: spin;
+    animation-iteration-count: 2;
+    animation-duration: 1s;
+}
+
+.canvas{
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+#center{
+    width: 227px;
+    margin: 15px auto;
+}
+
+.selection, #player, #computer{
+    display: inline;
+    margin: 25px;
+    font-size: 1.3em;
+}
+
+button {
+    font-size: 1.2em;
+    border-radius: 5px;
+}

@@ -1,0 +1,87 @@
+#container {
+    border: 2px solid black;
+    box-shadow: 0 0 2px 1.2px black;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 25%;
+    background-color: #f1eff265
+    outline: none;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    color: blue;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+input {
+    position: relative;
+    top: 100px;
+    left: 150px;
+    color: black;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input:focus{
+    outline: none;
+}
+
+.form-group{
+    margin: 0;
+    margin-left: -125px;
+}
+
+#button {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    width: 70px;
+    padding: 10px;
+    top: 110px;
+    position: relative;
+    
+}
+#button:hover{
+    box-shadow: 1px 1px 2px 1px #f1eff265;
+    color:black;
+    background-color: white;
+    transition-delay: .1s;
+
+}
+
+#year {
+    position: relative;
+    top: 120px;
+    margin-left: 140px;
+    color: red;
+    font-size: 20px;
+    line-height: 40px;
+    background-color: white;
+    border: white;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#year:hover {
+    color: white;
+    background-color: white;
+    transition-delay: .1.7s
+}
+
+#nameperson{
+    text-transform: capitalize;
+    font-family:'Times New Roman', Times, serif Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
